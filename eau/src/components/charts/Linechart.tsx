@@ -69,7 +69,6 @@ return (
         <Area type="monotone" dataKey="pv" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
     </AreaChart>
     );
-
 }
 
 export default SimpleAreaChart;

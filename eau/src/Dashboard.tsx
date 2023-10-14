@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
 import SimpleAreaChart from './components/charts/Linechart'
+import SimpleRadialChart from './components/charts/RadialChart'
 
 function App() {
     return (
         <>
-            <Navbar />
+            <SimpleAreaChart />
 
-            <SimpleAreaChart /> 
+            <SimpleRadialChart /> 
         </>
     )
 }
