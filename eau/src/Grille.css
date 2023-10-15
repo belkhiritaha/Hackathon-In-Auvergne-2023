@@ -1,0 +1,11 @@
+table {
+    border-collapse: separate;
+}
+
+td {
+    background-color: #f0ad4e;
+    text-align: center;
+    padding: 0.5em;
+    width: 2.5vw;
+    height: 2.5vw;
+}
