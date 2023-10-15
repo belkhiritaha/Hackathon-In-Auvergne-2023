@@ -18,7 +18,7 @@ data = {
 
     
 
-df = pd.DataFrame(data)
+df = pd.DataFrame(data) #création de la data
 
 df['Arrosage'] = df['Arrosage'].map({'Oui': 1, 'Non': 0})
 
